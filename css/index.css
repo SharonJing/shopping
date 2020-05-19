@@ -1,0 +1,127 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.main .focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.main .newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.newsflash .news1 {
+    height: 165px;
+    border: 1px solid #ccc;
+}
+
+.newsflash .news1 .news-ht {
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+    height: 33px;
+    line-height: 33px;
+}
+
+.newsflash .news1 .news-ht .more {
+    float: right;
+}
+
+.newsflash .news1 .news-ht .more::after {
+    content: "\e920";
+    font-family: 'icomoon';
+}
+
+.newsflash .news1 .news-ht h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.newsflash .news1 .news-hd {
+    padding: 5px 15px 0;
+}
+
+.newsflash .news1 .news-hd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.newsflash .news2 {
+    height: 209px;
+    border: 1px solid #ccc;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.news2 ul {
+    width: 252px;
+}
+
+.news2 ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.news2 ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url(../images/icons.png) -19px -15px no-repeat;
+}
+
+.news3 img {
+    margin-top: 6px;
+}
+
+.recom {
+    height: 163px;
+    margin-top: 12px;
+    background-color: #ebebeb;
+}
+
+.recom .recom-hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recom .recom-bd {
+    float: left;
+}
+
+.recom .recom-bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom-bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recom .recom-bd ul li:nth-child(-n+3)::after {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    content: '';
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
