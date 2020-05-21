@@ -294,3 +294,7 @@
 .mod-copyright .link a {
     padding: 0 5px;
 }
+
+.copyright {
+    line-height: 20;
+}
